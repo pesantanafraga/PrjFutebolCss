@@ -1,0 +1,137 @@
+*{
+    padding: 0; margin: 0; font-family: sans-serif;
+}
+
+body{
+    background-color: #9b9b9b;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover{
+    border: 1.7px solid #fff;
+}
+
+.card{
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.card0{
+    background: url(neymar.jpg) center center no-repeat;
+    background-size: 380px;
+
+}
+
+.card0:hover{
+    background: url(neymar.jpg) center left no-repeat;
+    background-size: 535px;
+
+}
+
+.card0:hover h2{
+    opacity: 1;
+}
+
+.card0:hover .i{
+    opacity: 1;
+}
+
+.card1{
+    background: url(cr7.jpg) center center no-repeat;
+    background-size: 380px;
+
+}
+
+.card1:hover{
+    background: url(cr7.jpg) center left no-repeat;
+    background-size: 600px;
+
+}
+
+.card1:hover h2{
+    opacity: 1;
+}
+
+.card1:hover .i{
+    opacity: 1;
+}
+
+.card2{
+    background: url(messi.jpg) center center no-repeat;
+    background-size: 300px;
+
+}
+
+.card2:hover{
+    background: url(messi.jpg) center left no-repeat;
+    background-size: 600px;
+
+}
+
+.card2:hover h2{
+    opacity: 1;
+}
+
+.card2:hover .i{
+    opacity: 1;
+}
+
+h2{
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.i{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.texto{
+    position: relative;
+    margin-left: 1px;
+    color: #fff;
+    height: 130px;
+    top: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
